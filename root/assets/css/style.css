@@ -1,0 +1,52 @@
+body {
+    color: #666;
+    font-family: Arial;
+    margin: 0;
+}
+.u-bullet::before {
+    color: #f90;
+    content: "\2022"; 
+    margin-right: 5px;
+}
+.u-arrow::before {
+    color: #f90;
+    content: "\2192";
+    margin-right: 5px;
+}
+.u-marginTop20 { 
+    margin-top: 20px; 
+}
+.AcademyInfo {
+    background: linear-gradient(to bottom, #f6fdfc, #fff);
+    padding: 20px;
+}
+.AcademyInfo-articleTitle {
+    color: #f90;
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+.AcademyInfo-heading {
+    color: #627d81;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+.AcademyInfo-text {
+    line-height: 1.2em;
+    margin: 0; 
+}
+.AcademyInfo-readMore { 
+    color: #627d81; 
+}
+.AcademyInfo-readMore:hover { 
+    color: #fb8707; 
+}
+.AcademyInfoList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.listItem {
+    margin-right: 5px;
+    line-height: 1.2em;
+}
